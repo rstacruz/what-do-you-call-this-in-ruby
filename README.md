@@ -4,27 +4,24 @@ Inspired by [JuanitoFatas/what-do-you-call-this-in-ruby](https://github.com/Juan
 
 | What? | Proper name | Colloquial names |
 | ----- | ---- | ---- |
-| `=>` | ? | hashrocket, fat arrow |
-| `<=>` | comparator operator | ufo, spaceship |
+| `=>` | | hashrocket, fat arrow |
+| `<=>` | combined comparison operator | ufo, spaceship |
 | `=` | direct assignment | equal |
 | `==` | equality operator | equals |
 | `===` | case equality operator | threequals |
-| `=~` | regex match operator | ? |
+| `=~` | pattern operator | ? |
 | `~>` | pessimistic operator | twiddlewacka, spemy, tadpole |
-| `->` | lambda | stabby lambda, dash rocket, thin arrow |
-| ----- | ---- | ---- |
+| `->` | lambda | stab operator, dash rocket, thin arrow |
 | `||=` | assignment by logical OR | pipe bomb |
 | `&&=` | assignment by logical AND | |
-| ----- | ---- | ---- |
 | `*` | splat | star, stargs |
 | `?:` | ternary conditional | |
 | `#{}` | string interpolation | crab claws |
-| `!~` | negative regex match operator |
+| `!~` | negative pattern operator |
 | `&foo` | proc operator | pretzel-colon |
 | `<<` | left shift | push, shovel |
 | `>>` | right shift | forward shovel |
 | `&.` | safe navigation operator | lonely operator |
-| ----- | ---- | ---- |
 | `<<-` | heredoc | |
 | `<<~` | indented heredoc | squiggly heredoc |
 | ----- | ---- | ---- |
