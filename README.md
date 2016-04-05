@@ -1,34 +1,40 @@
-# What do you call this in Ruby?
+# What do you _really_ call this in Ruby?
+
+Inspired by [JuanitoFatas/what-do-you-call-this-in-ruby](https://github.com/JuanitoFatas/what-do-you-call-this-in-ruby), this has proper names as well as colloquial names.
 
 | What? | Proper name | Colloquial names |
 | ----- | ---- | ---- |
 | `=>` | ? | hashrocket, fat arrow |
 | `<=>` | comparator operator | ufo, spaceship |
-| `=` | assignment operator | equal |
+| `=` | direct assignment | equal |
 | `==` | equality operator | equals |
 | `===` | case equality operator | threequals |
 | `=~` | regex match operator | ? |
 | `~>` | pessimistic operator | twiddlewacka, spemy, tadpole |
 | `->` | lambda | stabby lambda, dash rocket, thin arrow |
-| `||=` | or assignment | pipe bomb |
-| `!` | logical NOT operator | bang |
-| `!!` | | double bang |
-| `!!` | | bang bang |
+| ----- | ---- | ---- |
+| `||=` | assignment by logical OR | pipe bomb |
+| `&&=` | assignment by logical AND | |
+| ----- | ---- | ---- |
 | `*` | splat | star, stargs |
-| `?:` | ternary if | ... |
+| `?:` | ternary conditional | |
 | `#{}` | string interpolation | crab claws |
-| `!~` | doesn't match |
-| `!~` | bacon bat |
-| `&&=` | assign unless falsy |
-| `&&=` | and-gets |
-| `|` | bitwise OR | pipe |
+| `!~` | negative regex match operator |
 | `&foo` | proc operator | pretzel-colon |
 | `<<` | left shift | push, shovel |
 | `>>` | right shift | forward shovel |
 | `&.` | safe navigation operator | lonely operator |
+| ----- | ---- | ---- |
 | `<<-` | heredoc | |
 | `<<~` | indented heredoc | squiggly heredoc |
-| `-@` | unary operator | |
-| `+@` | unary operator | |
-| `&&` | and | |
-| `||` | or | |
+| ----- | ---- | ---- |
+| `-@` | unary minus | |
+| `+@` | unary plus | |
+| ----- | ---- | ---- |
+| `!` | logical NOT | bang |
+| `&&` | logical AND | |
+| `||` | logical OR | |
+| `~` | bitwise NOT | tilde |
+| `^` | bitwise XOR | caret |
+| `&` | bitwise AND | |
+| `|` | bitwise OR | pipe |
