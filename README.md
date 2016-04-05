@@ -9,7 +9,7 @@ Inspired by [JuanitoFatas/what-do-you-call-this-in-ruby](https://github.com/Juan
 | `=` | direct assignment | equal |
 | `==` | equality operator | equals |
 | `===` | case equality operator | threequals |
-| `=~` | pattern operator | ? |
+| `=~` | pattern operator | |
 | `~>` | pessimistic operator | twiddlewacka, spemy, tadpole |
 | `->` | lambda | stab operator, dash rocket, thin arrow |
 | `||=` | assignment by logical OR | pipe bomb |
@@ -24,10 +24,8 @@ Inspired by [JuanitoFatas/what-do-you-call-this-in-ruby](https://github.com/Juan
 | `&.` | safe navigation operator | lonely operator |
 | `<<-` | heredoc | |
 | `<<~` | indented heredoc | squiggly heredoc |
-| ----- | ---- | ---- |
 | `-@` | unary minus | |
 | `+@` | unary plus | |
-| ----- | ---- | ---- |
 | `!` | logical NOT | bang |
 | `&&` | logical AND | |
 | `||` | logical OR | |
