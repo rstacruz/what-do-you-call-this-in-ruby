@@ -19,10 +19,11 @@ Inspired by [JuanitoFatas/what-do-you-call-this-in-ruby](https://github.com/Juan
 | `#{}` | string interpolation | crab claws |
 | `!~` | negative pattern operator |
 | `&foo` | proc operator | pretzel-colon |
+| `%(...)` | percent string literal [•••][percent-strings] | |
 | `<<` | left shift | push, shovel |
 | `>>` | right shift | forward shovel |
 | `&.` | safe navigation operator | lonely operator |
-| `<<-` | heredoc | |
+| `<<-` | heredoc [•••][heredoc] | |
 | `<<~` | indented heredoc | squiggly heredoc |
 | `-@` | unary minus | |
 | `+@` | unary plus | |
@@ -33,3 +34,6 @@ Inspired by [JuanitoFatas/what-do-you-call-this-in-ruby](https://github.com/Juan
 | `^` | bitwise XOR | caret |
 | `&` | bitwise AND | |
 | `|` | bitwise OR | pipe |
+
+[percent-strings]: http://ruby-doc.org/core-2.3.1/doc/syntax/literals_rdoc.html#label-Percent+Strings
+[heredoc]: https://en.wikipedia.org/wiki/Here_document
